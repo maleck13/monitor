@@ -4,7 +4,7 @@ monitor
 process monitoring in nodejs
 
 Example Config for a process:
-
+<code>
 {
   "start":"",
   "stop":"",
@@ -49,3 +49,4 @@ Example Config for a process:
   }
 
 }
+</code>
