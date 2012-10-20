@@ -1,0 +1,17 @@
+{
+  "name": "monitor",
+  "version": "0.0.1",
+  "description": "service written in node for monitoring restarting services",
+  "main": "bin/monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "monitor",
+    "services",
+    "restart"
+  ],
+  "author": "craig brookes",
+  "license": "BSD"
+}
