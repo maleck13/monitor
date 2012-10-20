@@ -12,6 +12,8 @@ Example Config for a process:
   "pid_file":"",
   "service_location":"",
   "port":"",
+  "mailserver":"",
+  "email":"someone@somewhere.com",
   "scripts":{
     "free disk":"rm -rf ./notneeded.txt",
     "free ram":"ls -ahl"
@@ -22,7 +24,7 @@ Example Config for a process:
         "attempts":3,
         "onSingleFail":"restart",
         "failed":"alert, stop"
-     }, 
+     },
      "pid":{
        "attempts":4,
        "onSingleFail":"restart",
@@ -48,7 +50,5 @@ Example Config for a process:
         "failed":"restart, alert, script:free ram"
      }
   }
-
-}
 </code>
 </pre>
